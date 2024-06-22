@@ -23,8 +23,9 @@ class CreateScheduledRepaymentsTable extends Migration
 
             // TODO: Add missing columns here
             $table->integer('amount');
-            $table->date('scheduled_date');
-            $table->boolean('is_paid');
+            $table->string('currency_code');
+            $table->date('due_date');
+            $table->string('status');
             $table->timestamps();
             $table->softDeletes();
         });
