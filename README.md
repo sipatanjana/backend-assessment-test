@@ -1,3 +1,5 @@
+## Dikarenakan saya tidak terbiasa jadi untuk Credit Card testing nya saya menggunakan Postman dan sudah saya sertakan pada repo berikut ini
+
 ## Backend Assessment Test
 ### Setup procedure
 1. Checkout a new feature branch from `master`
